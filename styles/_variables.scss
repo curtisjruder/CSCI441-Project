@@ -1,0 +1,30 @@
+:root{    
+    --colorPrimary: #2ae7e7;
+    --colorSecond: rgb(219, 143, 113);
+    --colorBackground: #201A1A;
+    --colorText: #dbdbdb;
+}
+
+$colorPrimary: var(--colorPrimary);
+$colorSecond: var(--colorSecond);
+$colorBackground: var(--colorBackground);
+$colorText: var(--colorText);
+
+$screenSmall: 600px;
+$screenMed: 1000px;
+
+$fontXXLarge: calc(1.5vw + 38px);
+$fontXLarge: calc(.5vw + 32px);
+$fontLarge: calc(.4vw + 27px);
+$fontMed: calc(.3vw + 22.5px);
+$fontSmall: calc(0.2vw + 16.5px);
+$fontXSmall: calc(0.1vw + 14px);
+
+
+@mixin flexBox($justify) {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: $justify;
+    align-items: center;    
+}

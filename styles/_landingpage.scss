@@ -1,0 +1,15 @@
+
+#intro-section{
+    @include flexBox(center);
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    margin: 25vh auto;
+    color: $colorText;
+
+    text-align: center;
+    h1{
+        font-size: $fontXXLarge;
+        text-shadow: $colorText 0 0 30px;
+    }
+}

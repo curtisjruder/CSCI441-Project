@@ -1,0 +1,57 @@
+:root {
+  --colorPrimary: #2ae7e7;
+  --colorSecond: rgb(219, 143, 113);
+  --colorBackground: #201A1A;
+  --colorText: #dbdbdb;
+}
+
+#intro-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: 50%;
+  width: 100%;
+  margin: 25vh auto;
+  color: var(--colorText);
+  text-align: center;
+}
+
+#intro-section h1 {
+  font-size: calc(1.5vw + 38px);
+  text-shadow: var(--colorText) 0 0 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  background-color: transparent;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  background: radial-gradient(var(--colorBackground) 80%, var(--colorText));
+}

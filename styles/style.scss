@@ -1,0 +1,24 @@
+@import "./variables";
+@import "./landingpage";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    background-color: transparent;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+html{
+    min-width: 100vw;
+    min-height: 100vh;    
+}
+
+body{
+    background: radial-gradient($colorBackground 80%, $colorText)
+}
+
