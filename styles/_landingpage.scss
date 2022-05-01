@@ -5,11 +5,21 @@
     height: 50%;
     width: 100%;
     margin: 25vh auto;
-    color: $colorText;
-
+    color: $colorPrimary;
+    cursor: none;
     text-align: center;
     h1{
+        padding: 5vh 3vw;
         font-size: $fontXXLarge;
-        text-shadow: $colorText 0 0 30px;
+        text-shadow: $colorBackground 0 0 30px;
+        border-bottom: solid $colorBackground 1px;
+        border-top: solid $colorBackground 1px;
+        text-align: center;
+        vertical-align: center;
     }
+
+    .loader{
+        font-size: $fontXLarge;
+    }
+
 }

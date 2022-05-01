@@ -4,16 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Advantage</title>
-    <script>
-        window.location.replace("https://csci441project.herokuapp.com/")
-    </script>
     <link rel="stylesheet" href="/css/style.css">
+    <script defer>
+        setTimeout(() => {
+            window.location.replace("https://csci441project.herokuapp.com/")
+        }, 2500)        
+    </script>
 </head>
 <body>
-    <main id="intro-section">
-        <h2>Welcome to</h2>
-        <h1>Crypto Advantage</h1>
-        <p>Under development...</p>
-    </main>
+    <div id="intro-section">
+    <h1>Crypto Advantage</h1>
+    <br>
+    <div class="loader">
+        Loading
+        <span class="loader__dot">.</span>
+        <span class="loader__dot">.</span>
+        <span class="loader__dot">.</span>
+    </div>
+</div>
 </body>
 </html>
